@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+
+.timer{
+  border: 5px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 200px;
+}
+
+.time{
+  font-size: 5em;
+  font-family: monospace;
+}
+
+.controls{
+  padding: 10px;
+
+}
+
+button{
+  margin-left: 20px;
+  font-size: 2em;
+  background: none;
+  border: none;
+}
+
+button:hover{
+  background-color: azure;
+  cursor: pointer;
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 30px;
+}
+.display{
+  font-size: 3em;
+  font-family: monospace;
+  font-weight: bold;
+}
